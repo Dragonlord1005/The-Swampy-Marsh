@@ -3,7 +3,7 @@ site_url: https://example.com/
 nav:
     - Home: index.md
     - About:
-      - 'About': 'about/about.md'
+      - 'History': 'about/history.md'
       - 'Staff': 'about/staff.md'
 
 theme: 
