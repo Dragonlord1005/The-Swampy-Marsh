@@ -1,3 +1,3 @@
-# hi
+# Home Menu
 
-Hi there
+This is the home menu (it's not finished)
