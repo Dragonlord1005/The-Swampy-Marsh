@@ -12,6 +12,6 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.top
-  extra:
-    version:
-      provider: mike
+extra:
+  version:
+    provider: mike
