@@ -9,5 +9,6 @@ nav:
 theme: 
   name: material
   features:
+    - navigation.sections
     - navigation.tabs
     - navigation.top
