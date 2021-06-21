@@ -12,3 +12,7 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.top
+  extra:
+    version:
+      provider: mike
+      default: stable
