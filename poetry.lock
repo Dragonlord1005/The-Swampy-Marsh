@@ -88,6 +88,24 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "mike"
+version = "1.0.1"
+description = "Manage multiple versions of your MkDocs-powered documentation"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+jinja2 = "*"
+mkdocs = ">=1.0"
+pyyaml = "*"
+verspec = "*"
+
+[package.extras]
+dev = ["coverage", "flake8 (>=3.0)"]
+test = ["coverage", "flake8 (>=3.0)"]
+
+[[package]]
 name = "mkdocs"
 version = "1.2.1"
 description = "Project documentation with Markdown."
@@ -213,6 +231,17 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
+name = "verspec"
+version = "0.1.0"
+description = "Flexible version handling"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+test = ["coverage", "flake8 (>=3.7)", "mypy", "pretend", "pytest"]
+
+[[package]]
 name = "watchdog"
 version = "2.1.2"
 description = "Filesystem events monitoring"
@@ -238,7 +267,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "42b8a8d043722c7c6f096cb5845646fa16a054ff2e2c1e9d43d8ed974e83a749"
+content-hash = "686b8f5667882954eda4fe49acd4a3b433d85e4c46d7c60ba6cc8dd2f7169549"
 
 [metadata.files]
 click = [
@@ -303,6 +332,10 @@ markupsafe = [
 mergedeep = [
     {file = "mergedeep-1.3.4-py3-none-any.whl", hash = "sha256:70775750742b25c0d8f36c55aed03d24c3384d17c951b3175d898bd778ef0307"},
     {file = "mergedeep-1.3.4.tar.gz", hash = "sha256:0096d52e9dad9939c3d975a774666af186eda617e6ca84df4c94dec30004f2a8"},
+]
+mike = [
+    {file = "mike-1.0.1-py3-none-any.whl", hash = "sha256:29b39a725510a67590db261ca8292f583dcfe06c6ea6842793c96ae631d6e2e1"},
+    {file = "mike-1.0.1.tar.gz", hash = "sha256:7888f01d05d752bd43e03f6d971608a0b876f23787cf49a1f2b43be304b1789e"},
 ]
 mkdocs = [
     {file = "mkdocs-1.2.1-py3-none-any.whl", hash = "sha256:11141126e5896dd9d279b3e4814eb488e409a0990fb638856255020406a8e2e7"},
@@ -374,6 +407,10 @@ pyyaml-env-tag = [
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+]
+verspec = [
+    {file = "verspec-0.1.0-py3-none-any.whl", hash = "sha256:741877d5633cc9464c45a469ae2a31e801e6dbbaa85b9675d481cda100f11c31"},
+    {file = "verspec-0.1.0.tar.gz", hash = "sha256:c4504ca697b2056cdb4bfa7121461f5a0e81809255b41c03dda4ba823637c01e"},
 ]
 watchdog = [
     {file = "watchdog-2.1.2-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:581e3548159fe7d2a9f377a1fbcb41bdcee46849cca8ab803c7ac2e5e04ec77c"},
