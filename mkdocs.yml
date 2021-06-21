@@ -16,3 +16,4 @@ theme:
 extra:
   version:
     provider: mike
+    default: stable
