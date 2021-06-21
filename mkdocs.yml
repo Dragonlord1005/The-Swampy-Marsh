@@ -1,0 +1,6 @@
+site_name: Swampy Marsh
+site_url: https://example.com/
+nav:
+    - Home: index.md
+
+theme: material
