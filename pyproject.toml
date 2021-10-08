@@ -8,13 +8,12 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.8"
 mkdocs = "^1.2.2"
 mkdocs-material = "^7.3.2"
-mike = "^1.1.2"
 poethepoet = "^0.10.0"
 
 [tool.poetry.dev-dependencies]
 
 [tool.poe.tasks]
-serve = "mike serve"
+serve = "mkdocs serve --livereload"
 clear = { "shell" = "cls" }
 
 [build-system]

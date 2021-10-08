@@ -1,5 +1,5 @@
 site_name: Swampy Marsh
-site_url: the-swampy-marsh.readthedocs.io
+site_url: https://the-swampy-marsh.readthedocs.io
 nav:
     - Home: index.md
     - About:
@@ -14,7 +14,3 @@ theme:
     - navigation.tabs
     - navigation.top
     #- navigation.instant
-extra:
-  version:
-    provider: mike
-    default: stable
