@@ -1,5 +1,5 @@
 site_name: Swampy Marsh
-site_url: https://example.com/
+site_url: the-swampy-marsh.readthedocs.io
 nav:
     - Home: index.md
     - About:
