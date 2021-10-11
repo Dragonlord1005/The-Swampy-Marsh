@@ -13,4 +13,3 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.top
-    #- navigation.instant
