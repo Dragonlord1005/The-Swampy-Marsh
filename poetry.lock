@@ -156,11 +156,11 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "poethepoet"
-version = "0.12.0"
+version = "0.12.1"
 description = "A task runner that works well with poetry."
 category = "main"
 optional = false
-python-versions = ">=3.6.2,<4.0.0"
+python-versions = ">=3.6.2"
 
 [package.dependencies]
 pastel = ">=0.2.1,<0.3.0"
@@ -268,7 +268,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "57f10da2c0bf061bd503024cb0aa0fc11e176fb392f9f29e8f2daae8c1e18f25"
+content-hash = "e01eaf23de6fd05bea1bc23cf580b8dafe464d9f90cc9c283b90e611873cb9d2"
 
 [metadata.files]
 click = [
@@ -391,8 +391,8 @@ pastel = [
     {file = "pastel-0.2.1.tar.gz", hash = "sha256:e6581ac04e973cac858828c6202c1e1e81fee1dc7de7683f3e1ffe0bfd8a573d"},
 ]
 poethepoet = [
-    {file = "poethepoet-0.12.0-py3-none-any.whl", hash = "sha256:59215a7b0828295a499fa28a5e2c6d0202520a290cd0a74d59f54c1c74cbd2c7"},
-    {file = "poethepoet-0.12.0.tar.gz", hash = "sha256:d86a29707c24d964bbee15750d07dc763a9ca48265e1cd64dab15647f173bab7"},
+    {file = "poethepoet-0.12.1-py3-none-any.whl", hash = "sha256:1f37466227a67e911ecff81340b5bcab03f6aaadead637f888b8669aefd4e91b"},
+    {file = "poethepoet-0.12.1.tar.gz", hash = "sha256:6ec0be69f26baa6ed6a2d194d7e70fa7b1192322a1b093f50f3939b7748a3f8d"},
 ]
 pygments = [
     {file = "Pygments-2.10.0-py3-none-any.whl", hash = "sha256:b8e67fe6af78f492b3c4b3e2970c0624cbf08beb1e493b2c99b9fa1b67a20380"},
