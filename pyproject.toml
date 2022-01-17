@@ -7,7 +7,7 @@ authors = ["Your Name <you@example.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 mkdocs = "^1.2.3"
-mkdocs-material = "^8.1.6"
+mkdocs-material = "^8.1.7"
 poethepoet = "^0.12.2"
 
 [tool.poetry.dev-dependencies]
