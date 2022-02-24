@@ -1,2 +1,0 @@
-language = "python3"
-run = "mkdocs serve -a 0.0.0.0:3000 --livereload"
